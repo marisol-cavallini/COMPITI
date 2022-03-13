@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(int argc, char*argv[])
+{
+    int DIM=4;
+    int j;
+    int numero[DIM];
+    for (j=0; j < DIM; j++) {
+        printf ("inserisci numero:\n");
+        scanf("%d",&numero[j]);
+    }
+    for (j = 0; j < DIM; j++)
+	{
+		printf("i numeri sono:%d\n",numero[j]);
+	}
+    
+    return 0;
+}
